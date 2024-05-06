@@ -1,0 +1,15 @@
+NAI nodes list:
+
+- Image Nai-Filter (parametric)
+- Image Nai-Tonemapper (parametric)
+- Image Nai-transformer overlayer
+- Image 2 text (prompt, neg, metadata)
+- Text Nai-Prompter load/concat csv
+
+utils:
+
+- Text 2 string (with preview)
+- String 2 text
+- load image +
+- compare slider preview images
+- 
