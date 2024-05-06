@@ -1,5 +1,5 @@
 ﻿name,prompt,negative_prompt
 none,"",""
 NAI: SCIFI Vibrate,"lens distortion, crystal colors, vibrate, distortion, ","drawing, hand-made, painting"
-NAI: SCIFI Gloss,"Advanced Setting B, ","negative output"
-NAI: SCIFI Retro,"Advanced Setting c, ","negative output"
+NAI: SCIFI Gloss,"lighting, hdr, photography, ","blurry, fade"
+NAI: SCIFI Retro,"retro, vintage, classic scifi","modern, futuristic"
