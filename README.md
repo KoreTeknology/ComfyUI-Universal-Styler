@@ -53,6 +53,6 @@ After installing [**ComfyUI**](https://github.com/comfyanonymous/ComfyUI) servic
 * License: This project is released under the GPL License.
 * This work is dedicated to all ComfyUI users around the world ;)
 
-[^1]: **ComfyUI** is the free and open source 3D creation suite. It supports Stable Diffusion 1.5, 2. XL. Please, visit the [ComfyUI Github age](https://github.com/comfyanonymous/ComfyUI).
+[^1]: **ComfyUI** is the free and open source AI creation suite. It supports Stable Diffusion 1.5, 2. XL. Please, visit the [ComfyUI Github age](https://github.com/comfyanonymous/ComfyUI).
 
 [^2]: Large language models (LLM) are very large deep learning models that are pre-trained on vast amounts of data. The underlying transformer is a set of neural networks that consist of an encoder and a decoder with self-attention capabilities.
