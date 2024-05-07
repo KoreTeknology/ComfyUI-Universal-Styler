@@ -20,11 +20,14 @@ the code release will be uploaded as soon as the complete package is ready, stay
 - **Object and background contextual edition**
 - **Clip input, Condition output + Extras**
 
-- ## :radio_button: Features Under Development
+## :radio_button: Features Under Development
 
 - **Select database folder path in front-end**
-- **Single database column**
-- **Fields concatenate**
+- **Single database column per category**
+- **All Fields concatenate**
+- **Seed INT Field with output connector**
+
+---
 
 ## :radio_button: Objectives
 
