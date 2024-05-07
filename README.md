@@ -7,9 +7,10 @@ Hi, this is my first try with comfyUI custom nodes. It is a research Node based 
 <img src="https://img.shields.io/badge/ComfyUI-2.27+-c11b3f" /> <img src="https://img.shields.io/badge/Stable Diffusion-XL/2.0/1.5-c9c9c9" /> <img src="https://img.shields.io/badge/Windows-11-purple" /> <img src="https://img.shields.io/badge/Python-3.10-blue" /> <img src="https://img.shields.io/badge/CAN-X.1567D-949565" />
 
 ```diff
-!!! This documentation is in progress !!!
-the code release will be uploaded as soon as the complete package is ready, stay tuned...
+!!! This project and its documentation are (always) in progress !!! stay tuned...
+- You may find some errors, please report the issue in the dedicated section, thx
 ```
+
 
 <img alt="mockup" src="/MEDIA/screen_node_02.png">
 
