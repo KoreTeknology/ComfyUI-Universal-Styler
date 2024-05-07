@@ -11,6 +11,8 @@ A research Node based project on *Artificial Intelligence* using ComfyUI[^1] vis
 the code release will be uploaded as soon as the complete package is ready, stay tuned...
 ```
 
+<img alt="mockup" src="/MEDIA/screen_node_01.png">
+
 ## :radio_button: Objectives
 
 The objectives of this project are to offer different digital creation tools, using ComfyUI as the main platform and only in local environment. Here is a non-exhaustive list of planned features:
