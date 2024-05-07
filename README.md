@@ -13,6 +13,13 @@ the code release will be uploaded as soon as the complete package is ready, stay
 
 <img alt="mockup" src="/MEDIA/screen_node_01.png">
 
+## :radio_button: Working Features
+
+- **Load prompt presets from CSV personal database**
+- **Prompt sequences concatenate**
+- **Object and background contextual edition**
+- **Clip input, Condition output + Extras**
+
 ## :radio_button: Objectives
 
 The objectives of this project are to offer different digital creation tools, using ComfyUI as the main platform and only in local environment. Here is a non-exhaustive list of planned features:
