@@ -4,7 +4,7 @@ VERSION: Release: 0.2.1 - Licensed under GNU General Public License v3.0
 ```
 A research Node based project on *Artificial Intelligence* using ComfyUI[^1] visual editor with **Stable diffusion Local processing**[^2] focus in mind. This custom node is intended to serve the purpose to *offer a large palette of prompting scenrarios*, based on Public Checkpoint Models[^3] OR/AND **Private custom Models and LoRas**[^4]. It includes an integrated learning machine process as well as a set of workflows.
 
-<img src="https://img.shields.io/badge/Comfy-UI-c11b3f" /> <img src="https://img.shields.io/badge/Stable Diffusion-XL/2.0/1.5-c9c9c9" /> <img src="https://img.shields.io/badge/Windows-11-purple" /> <img src="https://img.shields.io/badge/Python-3.10-blue" /> <img src="https://img.shields.io/badge/CAN-X.1567D-949565" />
+<img src="https://img.shields.io/badge/ComfyUI-2.27+-c11b3f" /> <img src="https://img.shields.io/badge/Stable Diffusion-XL/2.0/1.5-c9c9c9" /> <img src="https://img.shields.io/badge/Windows-11-purple" /> <img src="https://img.shields.io/badge/Python-3.10-blue" /> <img src="https://img.shields.io/badge/CAN-X.1567D-949565" />
 
 ```diff
 !!! This documentation is in progress !!!
