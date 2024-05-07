@@ -232,7 +232,7 @@ class NaiStyler:
 # NAI concat v0.1 ##########################################################################
 ################
 
-class ConcatenateHelloWorld:     
+class ConcatenateFields:     
 
     @classmethod
     def INPUT_TYPES(cls):
@@ -261,11 +261,11 @@ NODE_CLASS_MAPPINGS = {
     "ShowText|pysssss": ShowText,
     "Load Nai Styles Complex CSV": NaiStylerComplexCSVLoader,
     "Universal_Styler_Node": NaiStyler,
-    "concat": ConcatenateHelloWorld,
+    "concat": ConcatenateFields,
 }
 NODE_DISPLAY_NAME_MAPPINGS = {
     "ShowText|pysssss": "✴️ U-NAI Get Text",
     "Load Nai Styles Complex CSV": "✴️ U-NAI Styles Launcher",
     "Universal_Styler_Node": "✴️ U-NAI Styler - v0.2.1",
-    "concat": "✴️ U-NAI String Concatenate",
+    "concat": "✴️ U-NAI Fields Concatenate",
 }
