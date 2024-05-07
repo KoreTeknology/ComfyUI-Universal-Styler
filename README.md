@@ -27,6 +27,7 @@ utils:
 - String 2 text
 - load image +
 - compare slider preview images
+- metadata constructor
 
 ---
 
