@@ -1,6 +1,6 @@
 # ComfyUI Universal Styler
 ```py
-VERSION: Release: 0.2.1 - Licensed under GNU General Public License v3.0
+VERSION: Pre-Alpha Release: 0.2.1 - Licensed under GNU General Public License v3.0
 ```
 Hi, this is my first try with comfyUI custom nodes. It is a research Node based project on *Artificial Intelligence* using ComfyUI[^1] visual editor with **Stable diffusion Local processing**[^2] focus in mind. This custom node is intended to serve the purpose to *offer a large palette of prompting scenrarios*, based on Public Checkpoint Models[^3] OR/AND **Private custom Models and LoRas**[^4]. It includes an integrated learning machine process as well as a set of workflows.
 
