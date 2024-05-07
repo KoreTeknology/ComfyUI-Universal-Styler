@@ -8,8 +8,8 @@ Hi, this is my first try with comfyUI custom nodes. It is a research Node based 
 
 ```diff
 !!! This project and its documentation are (always) in progress !!! stay tuned...
-This code source is secure and tested on windows 11 with CPU and GPU settings
-You may find some errors, please report the issue in the dedicated section, thx
+- You may find some errors, please report the issue in the dedicated section, thx
+```
 
 
 <img alt="mockup" src="/MEDIA/screen_node_02.png">
