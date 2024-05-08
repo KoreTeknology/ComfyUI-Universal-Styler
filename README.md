@@ -23,10 +23,14 @@ Hi, this is my first try with comfyUI custom nodes. It is a research Node based 
 
 ## :radio_button: Features Under Development
 
-- **Select database folder path in front-end**
-- **Single database column per category**
-- **All Fields concatenate**
-- **Seed INT Field with output connector**
+- NODE A
+  - **Select database folder path in front-end**
+  - **Single database column per category**
+  - **All Fields concatenate**
+  - **Seed INT Field with output connector**
+- NODE B
+  - **Model image-2-text to include**
+  - **Metadata read/write**
 
 ---
 
