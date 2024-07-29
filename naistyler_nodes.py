@@ -8,7 +8,7 @@ from pathlib import Path
 print(Path.cwd())
 print("############################################")
 BASE_DIR = Path.cwd()
-DATAPATH = BASE_DIR.joinpath("custom_nodes","ComfyUI-NAI-styler","CSV")
+DATAPATH = BASE_DIR.joinpath("custom_nodes","ComfyUI-Universal-Styler","CSV")
 print(DATAPATH)
 print("############################################")
 my_database = [str(file) for file in DATAPATH.glob("*.csv")]
@@ -147,9 +147,9 @@ class NaiStylerComplexCSVLoader:
     
     @classmethod
     def INPUT_TYPES(cls):
-        cls.naistyles_csv = cls.load_naistyles_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-NAI-styler\\CSV\\naifilters.csv"))
-        cls.naifilters_csv = cls.load_naifilters_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-NAI-styler\\CSV\\naistyles.csv"))
-        cls.naitypes_csv = cls.load_naitypes_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-NAI-styler\\CSV\\naitypes.csv"))
+        cls.naistyles_csv = cls.load_naistyles_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-Universal-Styler\\CSV\\naifilters.csv"))
+        cls.naifilters_csv = cls.load_naifilters_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-Universal-Styler\\CSV\\naistyles.csv"))
+        cls.naitypes_csv = cls.load_naitypes_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-Universal-Styler\\CSV\\naitypes.csv"))
         return {
             "required": {
                 #"mute": (["On", "Off"],),
