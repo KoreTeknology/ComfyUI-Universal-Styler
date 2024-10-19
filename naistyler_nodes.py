@@ -8,7 +8,7 @@ from pathlib import Path
 print(Path.cwd())
 print("############################################")
 BASE_DIR = Path.cwd()
-DATAPATH = BASE_DIR.joinpath("custom_nodes","ComfyUI-NAI-styler","CSV")
+DATAPATH = BASE_DIR.joinpath("custom_nodes","ComfyUI-Universal-Styler","CSV")
 print(DATAPATH)
 print("############################################")
 my_database = [str(file) for file in DATAPATH.glob("*.csv")]
@@ -78,8 +78,8 @@ class NaiStylerComplexCSVLoader:
         """
         naistyles = {"Error loading naistyles.csv, check the console": ["",""]}
         if not os.path.exists(naistyles_path):
-            print(f"""Error. No naistyles.csv found. Put your naistyles.csv in the custom_nodes/ComfyUI_NAI-mod/CSV directory of ComfyUI. Then press "Refresh".
-                  Your current root directory is: {folder_paths.base_path}
+            print(f"""Error. No naistyles.csv found. Put your naistyles.csv in the {DATAPATH} directory of ComfyUI. Then press "Refresh".
+                  Your current root directory is: {BASE_DIR}
             """)
             return naistyles
         try:
@@ -87,8 +87,8 @@ class NaiStylerComplexCSVLoader:
                 naistyles = [[x.replace('"', '').replace('\n','') for x in re.split(',(?=(?:[^"]*"[^"]*")*[^"]*$)', line)] for line in f.readlines()[1:]]
                 naistyles = {x[0]: [x[1],x[2]] for x in naistyles}
         except Exception as e:
-            print(f"""Error loading naistyles.csv. Make sure it is in the custom_nodes/ComfyUI_NAI-styler/CSV directory of ComfyUI. Then press "Refresh".
-                    Your current root directory is: {folder_paths.base_path}
+            print(f"""Error loading naistyles.csv. Make sure it is in the {DATAPATH} directory of ComfyUI. Then press "Refresh".
+                    Your current root directory is: {BASE_DIR}
                     Error: {e}
             """)
         return naistyles
@@ -97,14 +97,14 @@ class NaiStylerComplexCSVLoader:
 
     @staticmethod
     def load_naifilters_csv(naifilters_path: str):
-        """Loads filtercsv file, Ignore the first row (header).
+        """Loads naifilters.csv file, Ignore the first row (header).
         Returns:
-            list: List of naistyles. Each style is a dict with keys: style_name and value: [positive_prompt, negative_prompt]
+            list: List of filters. Each filter is a dict with keys: style_name and value: [positive_prompt, negative_prompt]
         """
-        naifilters = {"Error loading naistyles.csv, check the console": ["",""]}
+        naifilters = {"Error loading naifilters.csv, check the console": ["",""]}
         if not os.path.exists(naifilters_path):
-            print(f"""Error. No naistyles.csv found. Put your naistyles.csv in the custom_nodes/ComfyUI_NAI-mod/CSV directory of ComfyUI. Then press "Refresh".
-                  Your current root directory is: {folder_paths.base_path}
+            print(f"""Error. No naifilters.csv found. Put your naifilters.csv in the {DATAPATH} directory of ComfyUI. Then press "Refresh".
+                  Your current root directory is: {BASE_DIR}
             """)
             return naifilters
         try:
@@ -112,8 +112,8 @@ class NaiStylerComplexCSVLoader:
                 naifilters = [[x.replace('"', '').replace('\n','') for x in re.split(',(?=(?:[^"]*"[^"]*")*[^"]*$)', line)] for line in f.readlines()[1:]]
                 naifilters = {x[0]: [x[1],x[2]] for x in naifilters}
         except Exception as e:
-            print(f"""Error loading naistyles.csv. Make sure it is in the custom_nodes/ComfyUI_NAI-styler/CSV directory of ComfyUI. Then press "Refresh".
-                    Your current root directory is: {folder_paths.base_path}
+            print(f"""Error loading naifilters.csv. Make sure it is in the {DATAPATH} directory of ComfyUI. Then press "Refresh".
+                    Your current root directory is: {BASE_DIR}
                     Error: {e}
             """)
         return naifilters
@@ -122,14 +122,14 @@ class NaiStylerComplexCSVLoader:
 
     @staticmethod
     def load_naitypes_csv(naitypes_path: str):
-        """Loads filtercsv file, Ignore the first row (header).
+        """Loads naitypes.csv file, Ignore the first row (header).
         Returns:
-            list: List of naistyles. Each style is a dict with keys: style_name and value: [positive_prompt, negative_prompt]
+            list: List of naitypes. Each type is a dict with keys: style_name and value: [positive_prompt, negative_prompt]
         """
-        naitypes = {"Error loading naistyles.csv, check the console": ["",""]}
+        naitypes = {"Error loading naitypes.csv, check the console": ["",""]}
         if not os.path.exists(naitypes_path):
-            print(f"""Error. No naistyles.csv found. Put your naistyles.csv in the custom_nodes/ComfyUI_NAI-mod/CSV directory of ComfyUI. Then press "Refresh".
-                  Your current root directory is: {folder_paths.base_path}
+            print(f"""Error. No naitypes.csv found. Put your naitypes.csv in the {DATAPATH} directory of ComfyUI. Then press "Refresh".
+                  Your current root directory is: {BASE_DIR}
             """)
             return naitypes
         try:
@@ -137,8 +137,8 @@ class NaiStylerComplexCSVLoader:
                 naitypes = [[x.replace('"', '').replace('\n','') for x in re.split(',(?=(?:[^"]*"[^"]*")*[^"]*$)', line)] for line in f.readlines()[1:]]
                 naitypes = {x[0]: [x[1],x[2]] for x in naitypes}
         except Exception as e:
-            print(f"""Error loading naistyles.csv. Make sure it is in the custom_nodes/ComfyUI_NAI-styler/CSV directory of ComfyUI. Then press "Refresh".
-                    Your current root directory is: {folder_paths.base_path}
+            print(f"""Error loading naitypes.csv. Make sure it is in the {DATAPATH} directory of ComfyUI. Then press "Refresh".
+                    Your current root directory is: {BASE_DIR}
                     Error: {e}
             """)
         return naitypes
@@ -147,9 +147,9 @@ class NaiStylerComplexCSVLoader:
     
     @classmethod
     def INPUT_TYPES(cls):
-        cls.naistyles_csv = cls.load_naistyles_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-NAI-styler\\CSV\\naifilters.csv"))
-        cls.naifilters_csv = cls.load_naifilters_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-NAI-styler\\CSV\\naistyles.csv"))
-        cls.naitypes_csv = cls.load_naitypes_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-NAI-styler\\CSV\\naitypes.csv"))
+        cls.naistyles_csv = cls.load_naistyles_csv(os.path.join(DATAPATH, "naistyles.csv"))
+        cls.naifilters_csv = cls.load_naifilters_csv(os.path.join(DATAPATH, "naifilters.csv"))
+        cls.naitypes_csv = cls.load_naitypes_csv(os.path.join(DATAPATH, "naitypes.csv"))
         return {
             "required": {
                 #"mute": (["On", "Off"],),
