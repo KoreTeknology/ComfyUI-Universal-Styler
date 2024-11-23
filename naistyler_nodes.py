@@ -87,7 +87,7 @@ class NaiStylerComplexCSVLoader:
                 naistyles = [[x.replace('"', '').replace('\n','') for x in re.split(',(?=(?:[^"]*"[^"]*")*[^"]*$)', line)] for line in f.readlines()[1:]]
                 naistyles = {x[0]: [x[1],x[2]] for x in naistyles}
         except Exception as e:
-            print(f"""Error loading naistyles.csv. Make sure it is in the custom_nodes/ComfyUI_NAI-styler/CSV directory of ComfyUI. Then press "Refresh".
+            print(f"""Error loading naistyles.csv. Make sure it is in the custom_nodes/ComfyUI-Universal-Styler/CSV directory of ComfyUI. Then press "Refresh".
                     Your current root directory is: {folder_paths.base_path}
                     Error: {e}
             """)
@@ -112,7 +112,7 @@ class NaiStylerComplexCSVLoader:
                 naifilters = [[x.replace('"', '').replace('\n','') for x in re.split(',(?=(?:[^"]*"[^"]*")*[^"]*$)', line)] for line in f.readlines()[1:]]
                 naifilters = {x[0]: [x[1],x[2]] for x in naifilters}
         except Exception as e:
-            print(f"""Error loading naistyles.csv. Make sure it is in the custom_nodes/ComfyUI_NAI-styler/CSV directory of ComfyUI. Then press "Refresh".
+            print(f"""Error loading naistyles.csv. Make sure it is in the custom_nodes/ComfyUI-Universal-Styler/CSV directory of ComfyUI. Then press "Refresh".
                     Your current root directory is: {folder_paths.base_path}
                     Error: {e}
             """)
@@ -137,7 +137,7 @@ class NaiStylerComplexCSVLoader:
                 naitypes = [[x.replace('"', '').replace('\n','') for x in re.split(',(?=(?:[^"]*"[^"]*")*[^"]*$)', line)] for line in f.readlines()[1:]]
                 naitypes = {x[0]: [x[1],x[2]] for x in naitypes}
         except Exception as e:
-            print(f"""Error loading naistyles.csv. Make sure it is in the custom_nodes/ComfyUI_NAI-styler/CSV directory of ComfyUI. Then press "Refresh".
+            print(f"""Error loading naistyles.csv. Make sure it is in the custom_nodes/ComfyUI-Universal-Styler/CSV directory of ComfyUI. Then press "Refresh".
                     Your current root directory is: {folder_paths.base_path}
                     Error: {e}
             """)
@@ -147,9 +147,9 @@ class NaiStylerComplexCSVLoader:
     
     @classmethod
     def INPUT_TYPES(cls):
-        cls.naistyles_csv = cls.load_naistyles_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-Universal-styler\\CSV\\naifilters.csv"))
-        cls.naifilters_csv = cls.load_naifilters_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-Universal-styler\\CSV\\naistyles.csv"))
-        cls.naitypes_csv = cls.load_naitypes_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-Universal-styler\\CSV\\naitypes.csv"))
+        cls.naistyles_csv = cls.load_naistyles_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-Universal-Styler\\CSV\\naifilters.csv"))
+        cls.naifilters_csv = cls.load_naifilters_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-Universal-Styler\\CSV\\naistyles.csv"))
+        cls.naitypes_csv = cls.load_naitypes_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-Universal-Styler\\CSV\\naitypes.csv"))
         return {
             "required": {
                 #"mute": (["On", "Off"],),
