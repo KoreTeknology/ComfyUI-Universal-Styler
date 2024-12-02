@@ -147,10 +147,6 @@ class NaiStylerComplexCSVLoader:
     
     @classmethod
     def INPUT_TYPES(cls):
-        #cls.naistyles_csv = cls.load_naistyles_csv(os.path.join(folder_paths.base_path, "custom_nodes/ComfyUI-Universal-Styler/CSV/naifilters.csv"))
-        #cls.naifilters_csv = cls.load_naifilters_csv(os.path.join(folder_paths.base_path, "custom_nodes/ComfyUI-Universal-Styler/CSV/naistyles.csv"))
-        #cls.naitypes_csv = cls.load_naitypes_csv(os.path.join(folder_paths.base_path, "custom_nodes/ComfyUI-Universal-Styler/CSV/naitypes.csv"))
-
         cls.naistyles_csv = cls.load_naistyles_csv(os.path.join(folder_paths.base_path, "custom_nodes", "ComfyUI-Universal-Styler", "CSV", "naifilters.csv"))
         cls.naifilters_csv = cls.load_naifilters_csv(os.path.join(folder_paths.base_path, "custom_nodes", "ComfyUI-Universal-Styler", "CSV", "naistyles.csv"))
         cls.naitypes_csv = cls.load_naitypes_csv(os.path.join(folder_paths.base_path, "custom_nodes", "ComfyUI-Universal-Styler", "CSV", "naitypes.csv"))
