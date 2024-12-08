@@ -1,6 +1,9 @@
 import re
 from pathlib import Path
 
+BASE_DIR = Path.cwd()
+DATAPATH = BASE_DIR / "custom_nodes" / "ComfyUI-Universal-Styler" / "CSV"
+
 ################
 # NAI Show text v0.3 ##########################################################################
 ################
