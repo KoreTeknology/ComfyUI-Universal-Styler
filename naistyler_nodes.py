@@ -1,18 +1,6 @@
 import re
 from pathlib import Path
 
-# DEBUG pathlib (to replace folder_path from OS)
-print(Path.cwd())
-print("############################################")
-BASE_DIR = Path.cwd()
-DATAPATH = BASE_DIR / "custom_nodes" / "ComfyUI-Universal-Styler" / "CSV"
-print(DATAPATH)
-print("############################################")
-my_database = [str(file) for file in DATAPATH.glob("*.csv")]
-print(my_database)
-print("############################################")
-
-
 ################
 # NAI Show text v0.3 ##########################################################################
 ################
