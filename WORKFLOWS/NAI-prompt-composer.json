@@ -1,0 +1,476 @@
+{
+  "last_node_id": 49,
+  "last_link_id": 73,
+  "nodes": [
+    {
+      "id": 14,
+      "type": "LoadText|pysssss",
+      "pos": [
+        2330,
+        1900
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            13,
+            14
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadText|pysssss"
+      },
+      "widgets_values": [
+        "output",
+        "file.txt"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "SaveText|pysssss",
+      "pos": [
+        3100,
+        1930
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 13
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SaveText|pysssss"
+      },
+      "widgets_values": [
+        "output",
+        "file.txt",
+        "new only",
+        true,
+        ""
+      ]
+    },
+    {
+      "id": 15,
+      "type": "ShowText|pysssss",
+      "pos": [
+        2730,
+        2030
+      ],
+      "size": [
+        315,
+        76
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 14
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "shape": 6,
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "My Text"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "ShowText|pysssss",
+      "pos": [
+        2860,
+        1000
+      ],
+      "size": [
+        400,
+        76
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 72
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "shape": 6,
+          "links": null
+        }
+      ],
+      "title": "Preview Text",
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "#0001"
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 8,
+      "type": "Set DB Prompt",
+      "pos": [
+        1800,
+        1120
+      ],
+      "size": [
+        450,
+        340
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "prompt title",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 0
+        },
+        {
+          "name": "short prompt",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "long prompt",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "project dir",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Set DB Prompt"
+      },
+      "widgets_values": [
+        "Scene_1/Motion_A/V1",
+        "short",
+        "long",
+        "/outputs/project_name..."
+      ],
+      "color": "#223",
+      "bgcolor": "#335",
+      "shape": 1
+    },
+    {
+      "id": 49,
+      "type": "PrimitiveNode",
+      "pos": [
+        2030,
+        1020
+      ],
+      "size": [
+        210,
+        58
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "channel_input"
+          },
+          "links": [
+            73
+          ]
+        }
+      ],
+      "title": "Channel Def",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "ACCC"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 24,
+      "type": "ShowText|pysssss",
+      "pos": [
+        2860,
+        1370
+      ],
+      "size": [
+        400,
+        76
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 70
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "shape": 6,
+          "links": null
+        }
+      ],
+      "title": "Preview Text",
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "Blurry, text"
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 12,
+      "type": "ShowText|pysssss",
+      "pos": [
+        2860,
+        1130
+      ],
+      "size": [
+        400,
+        180
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 69
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "shape": 6,
+          "links": null
+        }
+      ],
+      "title": "Preview Text",
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "with the skills of video editing and publishing, of a video producer. Camera zoom close the scene  A swirling vortex of vibrant, saturated colors and abstract shapes, reminiscent of a psychedelic dream.  Include fractal patterns, distorted faces, and melting landscapes.  The overall composition should feel fluid and dynamic, with a sense of movement and energy.  Render in a style inspired by Alex Grey and Mati Klarwein, with a focus on intricate detail and luminous colors.  Add a touch of bioluminescence and subtle geometric patterns.  Artstation trending, 8k resolution, intricate detail, highly detailed, psychedelic art, vibrant colors, fractal patterns, swirling vortex.  "
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 47,
+      "type": "Load and Remix Prompts from Database",
+      "pos": [
+        2280,
+        1110
+      ],
+      "size": [
+        450,
+        350
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "channel_input",
+          "type": "STRING",
+          "widget": {
+            "name": "channel_input"
+          },
+          "link": 73
+        }
+      ],
+      "outputs": [
+        {
+          "name": "channel output",
+          "type": "STRING",
+          "links": [
+            72
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "positive prompt",
+          "type": "STRING",
+          "links": [
+            69
+          ]
+        },
+        {
+          "name": "negative prompt",
+          "type": "STRING",
+          "links": [
+            70
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Load and Remix Prompts from Database"
+      },
+      "widgets_values": [
+        "ACCC",
+        "extended",
+        "Video Producer",
+        "Swirling Vortex",
+        "",
+        "Zoom In",
+        "Close-Up",
+        "Augmented reality art",
+        "Backlighting",
+        "Basic negative prompt",
+        "#0001",
+        true
+      ],
+      "color": "#223",
+      "bgcolor": "#335",
+      "shape": 1
+    }
+  ],
+  "links": [
+    [
+      13,
+      14,
+      0,
+      7,
+      0,
+      "STRING"
+    ],
+    [
+      14,
+      14,
+      0,
+      15,
+      0,
+      "STRING"
+    ],
+    [
+      69,
+      47,
+      1,
+      12,
+      0,
+      "STRING"
+    ],
+    [
+      70,
+      47,
+      2,
+      24,
+      0,
+      "STRING"
+    ],
+    [
+      72,
+      47,
+      0,
+      48,
+      0,
+      "STRING"
+    ],
+    [
+      73,
+      49,
+      0,
+      47,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.8769226950000101,
+      "offset": [
+        -1652.1440263656566,
+        -847.5644698324861
+      ]
+    },
+    "node_versions": {
+      "ComfyUI-Custom-Scripts": "a53ef9b617ed1331640d7a2cd97644995908dc00"
+    }
+  },
+  "version": 0.4
+}
