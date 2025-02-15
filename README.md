@@ -10,20 +10,18 @@ Hi, this is a research Node based project on *Artificial Intelligence* using Com
 
 ## :radio_button: Working Features
 
-- **Load prompt presets from CSV personal database**
-- **Prompt sequences concatenate**
-- **Object and background contextual edition**
-- **Clip input, Condition output + Extras**
+- **Load prompt presets from CSV database**
+- **Prompt sequences compile (concatenate)**
+- **Contextual agents included**
+- **Channel drive (Chain-follow)**
+- **Prompt build setup**
 
 ## :radio_button: Features Under Development
 
 - NODE A
   - **Select database folder path in front-end**
-  - **Single database column per category**
-  - **All Fields concatenate**
   - **Seed INT Field with output connector**
 - NODE B
-  - **Model image-2-text to include**
   - **Metadata read/write**
 
 ---
