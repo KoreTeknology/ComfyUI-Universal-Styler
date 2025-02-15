@@ -2,7 +2,7 @@
 ```py
 VERSION: Pre-Alpha Release: 0.4.1 - UPDATED 02/2025 - Licensed under GNU General Public License v3.0
 ```
-Hi, this is a research Node based project on *Artificial Intelligence* using ComfyUI[^1] visual editor with **VRAM Local processing**[^2] focus in mind. This custom node is intended to serve the purpose to *offer a large palette of prompting scenrarios*, based on Public Checkpoint Models[^3] OR/AND **Private custom Models and LoRas**[^4]. It includes a set of workflows.
+Hi, this is a research Node based project on *Artificial Intelligence* using ComfyUI[^1] visual editor with **VRAM Local processing**[^2] focus in mind. This custom node is intended to serve the purpose to *offer a large palette of prompting scenrarios*, based on your scripting database[^3]. It also includes a set of workflows[^4].
 
 <img src="https://img.shields.io/badge/ComfyUI-0.2.3+-c11b3f" /> <img src="https://img.shields.io/badge/Image-Video-c9c9c9" /> <img src="https://img.shields.io/badge/Windows-11-purple" /> <img src="https://img.shields.io/badge/Python-3.10-blue" /> <img src="https://img.shields.io/badge/CAN-X.1567D-949565" />
 
@@ -64,6 +64,6 @@ After installing [**ComfyUI**](https://github.com/comfyanonymous/ComfyUI) servic
 
 [^2]: Large language models (LLM) are very large deep learning models that are pre-trained on vast amounts of data. The underlying transformer is a set of neural networks that consist of an encoder and a decoder with self-attention capabilities.
 
-[^3]: Public Checkpoint Models
+[^3]: A scripting database can be compared to a storyboard
 
-[^4]: Private custom Models and LoRas
+[^4]: The provided workflows offer the basic festures thry a simple pipeline design
