@@ -22,10 +22,10 @@ Hi, this is a research Node based project on *Artificial Intelligence* using Com
 
 ## :radio_button: Features Under Development
 
-- NODE A
+- NODE A: **Script Composer**
   - **Select database folder path in front-end**
   - **Seed INT Field with output connector**
-- NODE B
+- NODE B: **Script Creator**
   - **Metadata read/write**
   - Save database new item
 
