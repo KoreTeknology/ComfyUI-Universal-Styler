@@ -14,9 +14,9 @@ Hi, this is a research Node based project on *Artificial Intelligence* using Com
 
 ## :radio_button: Working Features
 
-- **Load script presets from CSV database** (Scene, ccamera, motion, light)
-- **Prompt sequences compile (concatenate)** (Optional Prefix, Various options available)
+- **Load script presets from CSV database** (Scene, camera, motion, light, style)
 - **Contextual agents included** (Dedicated Agents database file)
+- **Prompt sequences compiler (concatenate)** (Optional Prefix, Various options available)
 - **Channel drive (Chain-follow)** (Full references register)
 - **Prompt build setup** Database model card available as a node
 
