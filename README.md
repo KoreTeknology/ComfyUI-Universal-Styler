@@ -63,7 +63,8 @@ After installing [**ComfyUI**](https://github.com/comfyanonymous/ComfyUI) servic
 
 ## :radio_button: Infos
 
-* Author: **Uriel Deveaud** - [Kore Teknology](https://github.com/KoreTeknology) 
+* Author: **Uriel Deveaud** - [Kore Teknology](https://github.com/KoreTeknology)
+* Contact: [Linkedin ComfyUI Users Group](https://www.linkedin.com/groups/13109092/)
 * License: This project is released under the GPL License.
 * This work is dedicated to all ComfyUI users around the world ;)
 
