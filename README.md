@@ -10,7 +10,7 @@ Hi, this is a research Node based project on *Artificial Intelligence* using Com
 >>> THIS PACKAGE WAS FULLY REBUILD AFTER VERSION 0.5,
 >> OLD NODES MAY NOT WORK AS EXPECTED IN YOUR OLD WORKFLOWS! To avoid errors, remplace old nodes by the latest version from the main node menu.
 
-<img alt="mockup" src="/MEDIA/screen_node_02.png">
+<img alt="mockup" src="/MEDIA/screen_node_03.png">
 
 ## :radio_button: Working Features
 
