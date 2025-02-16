@@ -7,8 +7,8 @@ Hi, this is a research Node based project on *Artificial Intelligence* using Com
 <img src="https://img.shields.io/badge/ComfyUI-0.2.3+-c11b3f" /> <img src="https://img.shields.io/badge/Image-Video-c9c9c9" /> <img src="https://img.shields.io/badge/Windows-11-purple" /> <img src="https://img.shields.io/badge/Python-3.10-blue" /> <img src="https://img.shields.io/badge/CAN-X.1567D-949565" />
 
 > [!IMPORTANT]
-> THIS PACKAGE WAS FULLY REBUILD AFTER VERSION 0.5, OLD NODES MAY NOT WORK AS EXPECTED IN YOUR OLD WORKFLOWS!
->> To avoid errors, remplace old nodes by the last version from the main node menu.
+>>> THIS PACKAGE WAS FULLY REBUILD AFTER VERSION 0.5,
+>> OLD NODES MAY NOT WORK AS EXPECTED IN YOUR OLD WORKFLOWS! To avoid errors, remplace old nodes by the latest version from the main node menu.
 
 <img alt="mockup" src="/MEDIA/screen_node_02.png">
 
