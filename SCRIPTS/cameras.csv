@@ -1,0 +1,9 @@
+﻿name,short_prompt,long_prompt
+Select a camera...,,,
+Prime Lens,"Fixed focal length.","Fixed focal length.",
+Zoom Lens,"Variable focal length.","Variable focal length.",
+Standard Lens,"General purpose 50mm full frame.","General purpose 50mm full frame.",
+Wide-angle Lens,"Field of view 24mm.","Field of view 24mm.",
+Telephoto Lens,"Telephoto Lens 70-200mm.","Telephoto Lens 70-200mm.",
+Fish's Eye Lens,"Fish's Eye View.","Fish's Eye View.",
+Macro Lens,"Macro,extrem close-up.","Macro,extrem close-up.",

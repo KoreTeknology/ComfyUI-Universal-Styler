@@ -1,0 +1,10 @@
+﻿name,short_prompt,long_prompt
+Select a motion...,,,
+Rotating Left,"Horizontal camera rotate to the left","Horizontal camera [rotate:8] to the [left:0.7]",
+Rotating Right,"Horizontal camera rotate to the right","Horizontal camera [rotate:8] to the [right:0.7]",
+Panning Left,"Horizontal camera move to the left","Horizontal camera [move:8] to the [left:0.7]",
+Panning Right,"Horizontal camera move to the right","Horizontal camera [move:8] to the [right:0.7]",
+Titlting Up,"Vertical camera move to up","Vertical camera [move:8] to [up:0.5]",
+Titlting Down,"Vertical camera move to bottom","Vertical camera [move:8] to [bottom:0.5]",
+Zoom In,"Camera zoom close to the scene","Camera zoom close the scene",
+Zoom Out,"Camera zoom far from the subject","Camera zoom far from the subject",
