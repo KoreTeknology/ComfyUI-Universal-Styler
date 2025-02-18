@@ -14,7 +14,7 @@ Hi, this is a research Node based project on *Artificial Intelligence* using Com
 
 ## :radio_button: Working Features
 
-- **Load script presets from CSV database** (Scene, camera, motion, light, style)
+- **Load script presets from CSV database** (Scene, Camera, Motion, Lighting, Style)
 - **Contextual agents included** (Dedicated Agents database file)
 - **Prompt sequences compiler (concatenate)** (Optional Prefix, Various options available)
 - **Channel drive (Chain-follow)** (Full references register)
@@ -22,34 +22,10 @@ Hi, this is a research Node based project on *Artificial Intelligence* using Com
 
 ## :radio_button: Features Under Development
 
-- NODE A: **Load Scripts from Database**
-  - **Select database folder path in front-end & Update**
-  - **Seed INT Field with output connector**
-- NODE B: **Save Script to Database**
-  - **Metadata read/write**
-  - Save database new item (same as save text node + options)
-- NODE C: **Set Main Channel**
-  - **Project title**
-
----
-
-## :radio_button: Objectives
-
-The objectives of this project are to offer different digital creation tools, using ComfyUI as the main platform and only in local environment. Here is a non-exhaustive list of planned features:
-
-- **Image Nai-Filter (parametric)**
-- **Image Nai-Tonemapper (parametric)**
-- **Image Nai-transformer overlayer**
-- **Image 2 text (prompt, neg, metadata)**
-- **Text Nai-Prompter load/concat csv**
-
-utils:
-
-- Text 2 string (with preview)
-- String 2 text
-- load image +
-- compare slider preview images
-- metadata constructor
+- **Select database folder path in front-end & Update**
+- **Seed INT Field with output connector**
+- **Metadata read/write**
+- Save database new item (same as save text node + options)
 
 ---
 
