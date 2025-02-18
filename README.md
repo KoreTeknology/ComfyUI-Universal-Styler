@@ -22,6 +22,7 @@ Hi, this is a research Node based project on *Artificial Intelligence* using Com
 
 ## :radio_button: Features Under Development
 
+- **NEW set of script templates!**
 - **Select database folder path in front-end & Update**
 - **Seed INT Field with output connector**
 - **Metadata read/write**
