@@ -4,7 +4,7 @@ VERSION: Release 0.5.1 - UPDATED 02/2025 - Licensed under GNU General Public Lic
 ```
 Hi, this is a research Node based project on *Artificial Intelligence* using ComfyUI[^1] visual editor with **VRAM Local processing**[^2] focus in mind. This set of custom node is intended to *offer a large palette of prompting scenrarios*, based on your scripting database[^3]. This package also includes a set of workflows[^4], associated with each feature and a database template folder. This last set of files can be replaced by your own CSV files. It will works fine with image and video models like Stable diffusion and LTXV checkpoints. Feel free to accomodate and customize this template for each project.
 
-<img src="https://img.shields.io/badge/ComfyUI-0.2.3+-c11b3f" /> <img src="https://img.shields.io/badge/Image-Video-c9c9c9" /> <img src="https://img.shields.io/badge/Windows-11-purple" /> <img src="https://img.shields.io/badge/Python-3.10-blue" /> <img src="https://img.shields.io/badge/CAN-X.1567D-949565" />
+<img src="https://img.shields.io/badge/ComfyUI-0.3.14+-c11b3f" /> <img src="https://img.shields.io/badge/Image-Video-c9c9c9" /> <img src="https://img.shields.io/badge/Windows-11-purple" /> <img src="https://img.shields.io/badge/Python-3.10-blue" /> <img src="https://img.shields.io/badge/CAN-X.1567D-949565" />
 
 > [!IMPORTANT]
 >>> THIS PACKAGE WAS FULLY REBUILD AFTER VERSION 0.5,
