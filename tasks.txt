@@ -1,1 +1,11 @@
 channels <> agents
+
+Re-order the script sequence according to the prompt engineering documentation from LTXV:
+
+- Start with main action in a single sentence
+- Add specific details about movements and gestures
+- Describe character/object appearances precisely
+- Include background and environment details
+- Specify camera angles and movements
+- Describe lighting and colors
+- Note any changes or sudden events
